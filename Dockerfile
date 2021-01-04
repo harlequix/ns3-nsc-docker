@@ -19,7 +19,8 @@ RUN  apt-get install -y g++\
     pkg-config\
     sqlite3\
     python3-distro\
-    python3-requests
+    python3-requests\
+    gdb
 
 # python bindings dependencies
 RUN  apt-get install -y python3-setuptools git
